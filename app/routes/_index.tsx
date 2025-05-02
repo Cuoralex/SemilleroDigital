@@ -12,7 +12,7 @@ export default function Index() {
       {/* Hero */}
       <div id="hero" className="h-screen">
         <img
-          src="https://cesdenet-my.sharepoint.com/:i:/g/personal/jcuartasal_cesde_net/EbrrAbnohJ5Hm-SwqWf0ATQB28nvCMQFVwoQ5UYKJ51kdg?e=PxZA1Q"
+          src="./banner.jpg"
           alt="banner"
           title="banner"
           className="w-full h-[100%] object-cover"
@@ -30,7 +30,7 @@ export default function Index() {
       >
         <a href="https://www.cesde.edu.co">
           <img
-            src="https://www.cesde.edu.co/wp-content/uploads/2024/11/Logo-Suscripcion-Empresarial.jpg"
+            src="./Emprende.png"
             alt="Cesde"
             title="Cesde"
             width="264"
