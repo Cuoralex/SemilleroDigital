@@ -1,6 +1,7 @@
 // app/routes/AdminDashboard.tsx
 import { Link } from "@remix-run/react";
 import { useState } from "react";
+import ProjectList from "~/features/projects/components/ProjectList";
 
 export default function AdminDashboard() {
   const [activeTab, setActiveTab] = useState("Personal");
@@ -185,6 +186,9 @@ export default function AdminDashboard() {
                   Upload
                 </span>
                 <span className="tracking-wide px-2">Files</span>
+              </div>
+              <div>
+                <ProjectList/>
               </div>
             </div>
 

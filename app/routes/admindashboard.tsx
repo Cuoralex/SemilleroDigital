@@ -2,6 +2,7 @@
 
 import AdminDashboard from "../features/dashboards/components/AdminDashboard";
 
+
 export default function AdminDashboardRoute() {
   return (
     <div className="container mx-auto">

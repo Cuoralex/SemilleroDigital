@@ -4,6 +4,21 @@
     ],
     "usuarios": [
       { "id": 1, "nombre": "Ana", "rol": "estudiante" }
+    ],
+    "proyectcard": [[
+      {
+        "id": 1,
+        "nombre": "Proyecto de Energía Solar",
+        "descripcion": "Instalación de paneles en zonas rurales.",
+        "fechaInicio": "2025-06-01",
+        "responsable": "Ana Ruiz",
+        "imagenProyecto": "https://source.unsplash.com/featured/?solar",
+        "miembros": [
+          "https://randomuser.me/api/portraits/women/45.jpg",
+          "https://randomuser.me/api/portraits/men/34.jpg"
+        ]
+      }
+    ]
     ]
   }
   

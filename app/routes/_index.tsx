@@ -1,6 +1,7 @@
 // app/routes/_index.tsx
 import { Link } from "@remix-run/react";
 import Header from "~/components/layout/header";
+import Footer from "~/components/layout/footer";
 
 
 export default function Index() {
@@ -202,21 +203,7 @@ export default function Index() {
         </p>
       </section>
 
-      {/* Contacto */}
-      <section
-        id="contactanos"
-        style={{
-          backgroundColor: "#303838",
-          color: "white",
-          padding: "40px 20px",
-          textAlign: "center",
-        }}
-      >
-        <h2>Contáctanos</h2>
-        <p>Email: conecta@cesde.edu.co</p>
-        <p>Teléfono: (604) 444 1234</p>
-        <p>Redes sociales: [Facebook] [Instagram] [LinkedIn]</p>
-      </section>
+      <Footer/>
     </main>
   );
 }
