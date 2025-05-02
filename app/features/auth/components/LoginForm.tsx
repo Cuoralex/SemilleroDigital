@@ -1,4 +1,5 @@
 import { Form } from "@remix-run/react";
+import { Link } from "@remix-run/react";
 
 export default function LoginForm() {
   return (
@@ -10,12 +11,9 @@ export default function LoginForm() {
           <h1 className="text-white font-bold text-4xl">Simple App</h1>
           <p className="text-white mt-1">The simplest app to use</p>
           <div className="flex justify-center lg:justify-start mt-6">
-            <link
-              href="#"
-              className="hover:bg-indigo-700 hover:text-white hover:-translate-y-1 transition-all duration-500 bg-white text-indigo-800 mt-4 px-4 py-2 rounded-2xl font-bold mb-2"
-            >
+            <Link to="#" className="hover:bg-indigo-700 hover:text-white hover:-translate-y-1 transition-all duration-500 bg-white text-indigo-800 mt-4 px-4 py-2 rounded-2xl font-bold mb-2">
               Get Started
-            </link>
+            </Link>
           </div>
         </div>
       </div>
@@ -86,11 +84,9 @@ export default function LoginForm() {
               <span className="text-sm hover:text-blue-500 cursor-pointer">
                 Forgot Password?
               </span>
-              <link
-                href="#"
-                className="text-sm hover:text-blue-500 cursor-pointer"
-              >No tienes cuenta
-              </link>
+              <Link to="#" className="text-sm hover:text-blue-500 cursor-pointer">
+              No tienes cuenta
+              </Link>
             </div>
           </Form>
         </div>

@@ -1,8 +1,8 @@
-// app/routes/DashboardAdmin.tsx
+// app/routes/AdminDashboard.tsx
 import { Link } from "@remix-run/react";
 import { useState } from "react";
 
-export default function DashboardAdmin() {
+export default function AdminDashboard() {
   const [activeTab, setActiveTab] = useState("Personal");
 
   return (
