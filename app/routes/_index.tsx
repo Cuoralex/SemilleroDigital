@@ -52,7 +52,7 @@ export default function Index() {
       {/* Hero */}
       <div id="hero" className="h-screen">
           <img
-            src="public/images/banner.jpg"
+            src="public/banner.jpg"
             alt="banner"
             title="banner"
             className="w-full h-[100%] object-cover"
@@ -107,7 +107,7 @@ export default function Index() {
           <tbody>
             <tr>
               <td width="50%">
-                <img src="images/Emprende.png" alt="emprende" width="100%" />
+                <img src="public/Emprende.png" alt="emprende" width="100%" />
               </td>
               <td
                 width="50%"
