@@ -107,7 +107,7 @@ export default function Index() {
           <tbody>
             <tr>
               <td width="50%">
-                <img src="public/images/Emprende.png" alt="emprende" width="100%" />
+                <img src="images/Emprende.png" alt="emprende" width="100%" />
               </td>
               <td
                 width="50%"
