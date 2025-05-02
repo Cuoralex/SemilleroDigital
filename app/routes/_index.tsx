@@ -12,7 +12,7 @@ export default function Index() {
       {/* Hero */}
       <div id="hero" className="h-screen">
         <img
-          src="/banner.jpg"
+          src="https://cesdenet-my.sharepoint.com/:i:/g/personal/jcuartasal_cesde_net/EbrrAbnohJ5Hm-SwqWf0ATQB28nvCMQFVwoQ5UYKJ51kdg?e=PxZA1Q"
           alt="banner"
           title="banner"
           className="w-full h-[100%] object-cover"
@@ -70,7 +70,7 @@ export default function Index() {
           <tbody>
             <tr>
               <td width="50%">
-                <img src="images/Emprende.png" alt="emprende" width="100%" />
+                <img src="https://cesdenet-my.sharepoint.com/:i:/g/personal/jcuartasal_cesde_net/EXkI6zmPxpJKoZqe-a5RNxUBGIYg4jb_orCFiqjxSS6NUg?e=tkBEuv" alt="emprende" width="100%" />
               </td>
               <td
                 width="50%"
