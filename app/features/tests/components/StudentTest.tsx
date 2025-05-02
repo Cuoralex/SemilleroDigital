@@ -1,6 +1,6 @@
-// app/routes/faq.tsx
+// app/feature/tests/components/StudentTest.tsx
 
-export default function FAQ() {
+export default function StudentTest() {
     return (
       <section className="text-gray-700">
         <div className="container px-5 py-24 mx-auto">
