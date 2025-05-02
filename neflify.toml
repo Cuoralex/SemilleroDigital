@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "app/routes/_index.html"
+  publish = "app/routes"
 
 [dev]
   command = "npm run dev"
