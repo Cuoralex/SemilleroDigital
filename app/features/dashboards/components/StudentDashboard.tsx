@@ -1,4 +1,4 @@
-// app/routes/DashboardAdmin.tsx
+// app/features/dashboards/components/StudentDashboar.tsx
 import { Link } from "@remix-run/react";
 import { useState } from "react";
 

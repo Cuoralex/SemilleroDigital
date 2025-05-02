@@ -1,9 +1,9 @@
 // app/constants/routes.ts
 export const ROUTES = {
-  LOGIN: "/loginform",
-  REGISTER: "/registerform",
-  DASHBOARD_ADMIN: "/admindashboard",
-  DASHBOARD_PYME: "/pymedashboard",
-  DASHBOARD_STUDENT: "/studentdashboard",
-  PROJECTS: "/projectform",
+  LOGIN: "/login-form",
+  REGISTER: "/register-form",
+  DASHBOARD_ADMIN: "/admin-dashboard",
+  DASHBOARD_PYME: "/pyme-dashboard",
+  DASHBOARD_STUDENT: "/student-dashboard",
+  PROJECTS: "/project-form",
 };
