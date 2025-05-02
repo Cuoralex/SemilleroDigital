@@ -51,20 +51,21 @@ export default function Index() {
 
       {/* Hero */}
       <div id="hero" className="h-screen">
-          <img
-            src="public/banner.jpg"
-            alt="banner"
-            title="banner"
-            className="w-full h-[100%] object-cover"
-          />
+        <img
+          src="public/banner.jpg"
+          alt="banner"
+          title="banner"
+          className="w-full h-[100%] object-cover"
+        />
       </div>
 
       {/* Logo */}
-      <div className="bg-white p-5 flex justify-center"
+      <div
+        className="bg-white p-5 flex justify-center"
         style={{
           backgroundColor: "white",
           padding: "20px",
-          textAlign: "center", 
+          textAlign: "center",
         }}
       >
         <a href="https://www.cesde.edu.co">
@@ -78,7 +79,8 @@ export default function Index() {
       </div>
 
       {/* Inscripción */}
-      <section className=""
+      <section
+        className=""
         id="inscripcion"
         style={{
           backgroundColor: "#E3287A",
@@ -88,8 +90,9 @@ export default function Index() {
         }}
       >
         <h3>Suscripción para Empresas</h3>
-        <button onClick={() => (window.location.href = "/FormProyect.html")}>
-          Realizar inscripción
+        <button className="middle none center mr-3 rounded-lg border border-white py-3 px-6 font-sans text-xs font-bold uppercase text-white transition-all hover:opacity-75 focus:ring focus:ring-pink-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        data-ripple-dark="true" onClick={() => (window.location.href = "/register")}> 
+        Realizar inscripcion
         </button>
       </section>
 
@@ -235,8 +238,8 @@ export default function Index() {
       >
         <h2 style={{ color: "#303838" }}>Testimonios</h2>
         <p style={{ fontStyle: "italic" }}>
-          Gracias a Conecta CESDE, mi PYME logró tener su primera aplicación
-          web sin invertir grandes recursos.
+          Gracias a Conecta CESDE, mi PYME logró tener su primera aplicación web
+          sin invertir grandes recursos.
         </p>
       </section>
 
