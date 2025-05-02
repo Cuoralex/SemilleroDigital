@@ -1,6 +1,7 @@
 // app/routes/DashboardStudent.tsx
 import { Link } from "@remix-run/react";
 import { useState } from "react";
+import "./tailwind.css";
 
 export default function DashboardStudent() {
   const [activeTab, setActiveTab] = useState("Personal");
