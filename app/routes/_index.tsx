@@ -1,53 +1,12 @@
 // app/routes/_index.tsx
 import { Link } from "@remix-run/react";
+import Header from "~/components/layout/header";
+
 
 export default function Index() {
   return (
     <main style={{ margin: 0, fontFamily: "Montserrat, sans-serif" }}>
-      {/* Navbar */}
-      <div
-        style={{
-          backgroundColor: "white",
-          padding: "15px 30px",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-        }}
-      >
-        <a href="https://www.cesde.edu.co">
-          <img
-            src="https://www.cesde.edu.co/wp-content/uploads/2023/02/logo-Cesde-2023.svg"
-            alt="Cesde"
-            title="Cesde"
-            width="264"
-            height="53"
-          />
-        </a>
-        <nav>
-          {[
-            ["#inscripcion", "Inscripciones"],
-            ["#quees", "¿Qué es conecta-CESDE?"],
-            ["#resuelve", "¿Qué resuelve?"],
-            ["#beneficios", "¿Beneficios?"],
-            ["#participantes", "Participantes"],
-            ["#funcionamiento", "Funcionamiento"],
-            ["#testimonios", "Testimonios"],
-            ["#contactanos", "Contáctanos"],
-          ].map(([href, label]) => (
-            <a
-              key={href}
-              href={href}
-              style={{
-                color: "gray",
-                marginRight: "10px",
-                textDecoration: "none",
-              }}
-            >
-              {label}
-            </a>
-          ))}
-        </nav>
-      </div>
+      <Header />
 
       {/* Hero */}
       <div id="hero" className="h-screen">
