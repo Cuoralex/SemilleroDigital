@@ -1,0 +1,3 @@
+[submodule "SemilleroDigital"]
+    path = SemilleroDigital
+    url = https://github.com/tu-usuario/tu-submodulo.git

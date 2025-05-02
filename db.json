@@ -1,0 +1,9 @@
+{
+    "proyectos": [
+      { "id": 1, "nombre": "Sitio Web PYME", "estado": "pendiente" }
+    ],
+    "usuarios": [
+      { "id": 1, "nombre": "Ana", "rol": "estudiante" }
+    ]
+  }
+  
