@@ -4,9 +4,19 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white dark:bg-gray-50;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+
+  /* tailwind.css o global.css */
+.input {
+  @apply w-full mt-1 p-2 border border-gray-400 rounded bg-gray-50;
+}
+
+.textarea {
+  @apply w-full mt-1 p-2 border border-gray-400 rounded bg-gray-50;
+}
+
 }
