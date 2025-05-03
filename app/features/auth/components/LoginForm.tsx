@@ -1,17 +1,20 @@
 import { Form } from "@remix-run/react";
 import { Link } from "@remix-run/react";
+import Header from "~/components/layout/header";
 
 export default function LoginForm() {
   return (
+    <div>
+      <Header/>
     <div className="h-screen flex font-sans">
       {/* Imagen lateral */}
       <div className="hidden lg:flex w-full lg:w-1/2 login_img_section justify-around items-center relative">
         <div className="absolute inset-0 bg-black opacity-20 z-0"></div>
         <div className="w-full mx-auto px-20 flex-col items-center space-y-6 z-10">
-          <h1 className="text-white font-bold text-4xl">Simple App</h1>
-          <p className="text-white mt-1">The simplest app to use</p>
+          <h1 className="text-white font-bold text-4xl">Semillero digital</h1>
+          <p className="text-white mt-1">Aprender haciendo, crecer colaborando</p>
           <div className="flex justify-center lg:justify-start mt-6">
-            <Link to="#" className="hover:bg-indigo-700 hover:text-white hover:-translate-y-1 transition-all duration-500 bg-white text-indigo-800 mt-4 px-4 py-2 rounded-2xl font-bold mb-2">
+            <Link to="#" className="hover:bg-indigo-700 hover:text-white hover:-translate-y-1 transition-all duration-500 bg-white text-pink-800 mt-4 px-4 py-2 rounded-2xl font-bold mb-2">
               Get Started
             </Link>
           </div>
@@ -22,8 +25,8 @@ export default function LoginForm() {
       <div className="flex w-full lg:w-1/2 justify-center items-center bg-white">
         <div className="w-full px-8 md:px-32 lg:px-24">
           <Form method="post" className="bg-white rounded-md shadow-2xl p-5">
-            <h1 className="text-gray-800 font-bold text-2xl mb-1">Hello Again!</h1>
-            <p className="text-sm font-normal text-gray-600 mb-8">Welcome Back</p>
+            <h1 className="text-gray-800 font-bold text-2xl mb-1">¡Hola de nuevo!</h1>
+            <p className="text-sm font-normal text-gray-600 mb-8">Bienvenido, aquí empieza la magia</p>
 
             <div className="flex items-center border-2 mb-8 py-2 px-3 rounded-2xl">
               <svg
@@ -75,7 +78,7 @@ export default function LoginForm() {
 
             <button
               type="submit"
-              className="block w-full bg-indigo-600 mt-5 py-2 rounded-2xl hover:bg-indigo-700 hover:-translate-y-1 transition-all duration-500 text-white font-semibold mb-2"
+              className="block w-full bg-pink-600 mt-5 py-2 rounded-2xl hover:bg-indigo-700 hover:-translate-y-1 transition-all duration-500 text-white font-semibold mb-2"
             >
               Login
             </button>
@@ -96,10 +99,11 @@ export default function LoginForm() {
       <style>{`
         .login_img_section {
           background: linear-gradient(rgba(2,2,2,.7),rgba(0,0,0,.7)),
-            url('https://images.unsplash.com/photo-1650825556125-060e52d40bd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')
+            url('/Mentefactura.png')
             center center / cover no-repeat;
         }
       `}</style>
+    </div>
     </div>
   );
 }
