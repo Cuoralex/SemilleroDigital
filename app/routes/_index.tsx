@@ -12,7 +12,7 @@ export default function Index() {
       {/* Hero */}
       <div id="hero" className="h-screen">
         <img
-          src="/banner.jpg"
+          src="/banner.png"
           alt="banner"
           title="banner"
           className="w-full h-[100%] object-cover"
